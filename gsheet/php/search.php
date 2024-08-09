@@ -4,8 +4,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $regNumber = trim($_POST['regNumber']);
 
     // Configuration
-    $spreadsheetId = '1dYR7u6IdOHNkhXDbPgBd8d7NTG3ERdPDPgVKpyLtxyQ';
-    $apiKey = 'AIzaSyBisppCjbwL46jTnw7yk6aanqrSzTH5GYQ';
+    $spreadsheetId = ''; // Enter spred sheet ID
+    $apiKey = ''; // Enter API Key here
     $range = 'B:F'; // Adjust the range according to your sheet structure
 
     // Google Sheets API URL
