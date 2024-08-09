@@ -38,8 +38,8 @@
             });
             
             function fetchStudentDetails(regNumber) {
-                const spreadsheetId = '1dYR7u6IdOHNkhXDbPgBd8d7NTG3ERdPDPgVKpyLtxyQ';
-                const apiKey = 'AIzaSyBisppCjbwL46jTnw7yk6aanqrSzTH5GYQ';
+                const spreadsheetId = ''; // Enter the spreadsheet ID
+                const apiKey = ''; // Enter API key
                 const range = 'B:F'; // Adjust range based on your sheet
                 
                 fetch(`https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${range}?key=${apiKey}`)
