@@ -10,8 +10,8 @@
     //$regNumber = trim("878787");
 
     // Configuration
-    $spreadsheetId = '18vMWYV_l_oyj3K8qTLQuyKt8g0v93MSN9KH6Mnfri54'; // Enter spred sheet ID
-    $apiKey = 'AIzaSyBwCcg9SdCITMCAWppFy8Rbn6UQggCeQR8'; // Enter API Key here
+    $spreadsheetId = ''; // Enter spred sheet ID
+    $apiKey = ''; // Enter API Key here
     $range = 'A:I'; // Adjust the range according to your sheet structure
 
     // Google Sheets API URL
